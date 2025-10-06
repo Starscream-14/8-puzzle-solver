@@ -24,14 +24,16 @@ cd 8-puzzle
 python main.py
 ```
 
-## Struktur File
-8-puzzle/
-├── main.py              # File / Aplikasi Utama
-├── gui.py               # GUI dan Game Logic
-├── hc.py                # Algoritma Puzzle
-├── var.py               # Variabel Puzzle
-├── picture/
-│   └── puzzle.jpg       # Gambar Puzzle (Bisa Custom)
+### Struktur File
+```bash
+📂 8-puzzle/
+ ┣ 📜 main.py              # File / Aplikasi Utama
+ ┣ 📜 gui.py               # GUI dan Game Logic
+ ┣ 📜 hc.py                # Algoritma Puzzle
+ ┣ 📜 var.py               # Variabel Puzzle
+ ┗📂 picutre/
+ ┣ 📜 puzzle.jpg           # Gambar Puzzle (Bisa Custom)
+```
 
 ### Menu Game
 - **Play**: Memulai permainan
