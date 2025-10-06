@@ -76,7 +76,7 @@ class EightPuzzleGUI:
         self.buttons = []
         self.example_index = 0  # for cycling through PUZZLE_EXAMPLES
 
-        img_path = os.path.join(os.path.dirname(__file__), "puzzle.jpg")
+        img_path = os.path.join(os.path.dirname(__file__), "picture", "puzzle.jpg")
         puzzle_size = 540
         tile_size = puzzle_size // 3
         self.images = {}
@@ -258,4 +258,5 @@ def start_game(root):
         widget.destroy()
     root.configure(bg="#f0f0f0")
     root.geometry("750x750")
+
     EightPuzzleGUI(root)
