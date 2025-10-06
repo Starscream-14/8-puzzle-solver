@@ -19,7 +19,8 @@ pip install Pillow
 
 ## Instalasi / Cara Menggunakan Aplikasi
 ```bash
-cd https://github.com/Starscream-14/8-puzzle-solver.git
+git clone https://github.com/Starscream-14/8-puzzle-solver.git
+cd 8-puzzle-solver
 python main.py
 ```
 
