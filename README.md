@@ -31,7 +31,7 @@ python main.py
  ┣ 📜 gui.py               # GUI dan Game Logic
  ┣ 📜 hc.py                # Algoritma Puzzle
  ┣ 📜 var.py               # Variabel Puzzle
- ┗📂 picutre/
+ ┗📂 picture/
  ┣ 📜 puzzle.jpg           # Gambar Puzzle (Bisa Custom)
 ```
 
